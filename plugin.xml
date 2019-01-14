@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-jailbreakoptions"
+        version="1.0.1">
+
+  <name>JailbreakOptions</name>
+
+  <description>This plugin allows you to check current device is Jilbroken or not on iOS.</description>
+
+  <keywords>Cordova,PhoneGap,plugin,jailbroken,iOS</keywords>
+  <repo>https://github.com/santanu1122/Jailbreakoptions.git</repo>
+  <issue>https://github.com/santanu1122/Jailbreakoptions/issues</issue>
+
+
+  <license>MIT</license>
+
+  <engines>
+    <engine name="cordova" version=">=3.0.0" />
+  </engines>
+
+  <js-module src="www/JailbreakOptions.js" name="JailbreakOptions">
+    <clobbers target="JailbreakOptions" />
+  </js-module>
+
+  <!-- iOS -->
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="JailbreakOptions">
+        <param name="ios-package" value="JailbreakOptions" />
+      </feature>
+    </config-file>
+
+    <header-file src="src/ios/JailbreakOptions.h" />
+    <source-file src="src/ios/JailbreakOptions.m" />
+  </platform>
+
+</plugin>

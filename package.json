@@ -1,0 +1,36 @@
+{
+  "name": "cordova-plugin-jailbreakoptions",
+  "version": "1.0.1",
+  "description": "This plugin allows you to check current device is Jilbroken or not on iOS.",
+  "cordova": {
+    "id": "cordova-plugin-jailbreakoptions",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santanu1122/Jailbreakoptions/issues.git"
+  },
+  "keywords": [
+    "Cordova",
+    "PhoneGap",
+    "plugin",
+    "jilbroken",
+    "iOS",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "santanu1122",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santanu1122/Jailbreakoptions/issues"
+  },
+  "homepage": "https://github.com/santanu1122/Jailbreakoptions#readme"
+}
