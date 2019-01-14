@@ -1,9 +1,8 @@
 //
 //  JailbreakOptions.h
-//  demoapp
 //
 //  Created by TCG Digital on 14/01/19.
-//  Copyright © 2019 icrm. All rights reserved.
+//  Copyright © 2019 TCG Digital. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
